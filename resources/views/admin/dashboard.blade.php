@@ -62,13 +62,13 @@
       <div class="page-wrapper">
                     
         <!-- partial:partials/_navbar.html -->
-        @include('partials.header')
+        @include('admin.partials.header')
         <!-- partial -->
 
         @yield('content')
 
         <!-- partial:partials/_footer.html -->
-        @include('partials.footer')
+        @include('admin.partials.footer')
         <!-- partial -->
         
         </div>
